@@ -16,6 +16,7 @@
     android:orientation="horizontal">
 
     <EditText
+        android:id="@+id/et"
         android:layout_width="232dp"
         android:layout_height="wrap_content"
         android:hint="请输入要翻译的内容"
@@ -24,13 +25,18 @@
         android:text="翻译"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        style="@style/Platform.V14.AppCompat.Light"/>
+        style="@style/Platform.V14.AppCompat.Light"
+
+        android:onClick="click"/>
 </LinearLayout>
 
     <TextView
+        android:id="@+id/tv"
         android:text="这里是翻译结果"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#12179b"/>
 
 
 </LinearLayout>
